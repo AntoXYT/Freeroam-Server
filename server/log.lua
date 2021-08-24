@@ -1,5 +1,5 @@
 function sendToDiscord (name,message,color)
-  local DiscordWebHook = "https://discord.com/api/webhooks/827262760831287317/sniNdZKrfN8CKVua2UOsgZ_FYekq1oFko1PDkjjaP2GRNtdhwWxU1JNsST0xQqugRO3h"
+  local DiscordWebHook = "your_webhook"
 
 local embeds = {
     {
@@ -21,7 +21,7 @@ end
 
 
 ----------------------------------------------------------------- IP LOG----------------------------------------
-local logs = "https://discord.com/api/webhooks/827274706067259422/ivWJJAFE28Nkvr-Lwhett_tUeQ2Oze9XjqQ8pMO5HeIeEQRjk9_teH70O-guvuAvtxlG"
+local logs = "your_webgook"
 local communityname = "Freeroam"
 local communtiylogo = "https://i.imgur.com/716J5KY.jpg" 
 AddEventHandler('playerConnecting', function()
